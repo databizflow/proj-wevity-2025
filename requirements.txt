@@ -1,0 +1,13 @@
+# 주요 기능 패키지
+streamlit
+pandas
+requests
+beautifulsoup4
+selenium
+webdriver-manager
+lxml
+openpyxl
+python-dotenv
+
+# 선택적으로
+email-validator

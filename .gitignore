@@ -1,0 +1,45 @@
+# .gitignore
+
+# 환경 설정 파일
+.env
+.env.local
+
+# 크롬드라이버 자동 설치 경로 캐시
+~/.wdm
+.wdm/
+
+# 파이썬 캐시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 가상환경
+venv/
+env/
+ENV/
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 로그 파일
+*.log
+
+# 임시 파일
+*.tmp
+*.temp
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# 테스트 결과 파일
+test_results.csv
+crawl_results.csv
